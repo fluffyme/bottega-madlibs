@@ -1,10 +1,10 @@
 import React { Component} from 'react';
 
 class Content extends Component {
-    render () {
+    render() {
     
         const data = this.props.data
-        return (
+        return(
             <p>
             Ladies and Gentelmen, this is <b>{data.color}</b> Barber,
             </p>
