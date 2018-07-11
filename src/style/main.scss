@@ -61,7 +61,6 @@ grid-template-rows: 1fr 50px;
 
 
 &__inputs {
-    background-color: skyblue;
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(4, 1fr);
@@ -73,14 +72,31 @@ grid-template-rows: 1fr 50px;
 .input {
     display: grid;
     grid-template-columns: 26px 1fr;         
+    font-family: 'Montserrat';
+    text-align: center;
+
 
     &__title{
         grid-column: 2/3;
+        color: #b3b3b3;
+        border-top: 1px solid #b3b3b3;
+        font-size: 12px;
+        font-weight: 300;
     }
     input {
         grid-column: 2/3;
+        border:none;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600; 
+         
     }
     &__number{
         grid-column: 1/2;
+        background-color: #00cb79;
+        color: white;
+        font-size: 20px;
+        padding-top: 3px;
+        border-radius: 50%;
     }
 }
