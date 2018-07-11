@@ -60,20 +60,46 @@ display: grid;
 grid-template-rows: 1fr 50px;
 
 
-&__inputs {
-    display: grid;
-    grid-template-rows: repeat(4, 27px);
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-    align-items: center;
+    &__inputs {
+        display: grid;
+        grid-template-rows: repeat(4, 27px);
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        align-items: center;
 
-    grid-row-gap: 120px;
-    margin-top: 66px;
-    margin-left: 83px;
-    margin-right: 83px;
+        grid-row-gap: 120px;
+        margin-top: 66px;
+        margin-left: 83px;
+        margin-right: 83px;
+    }
 
+    button {
+        height: 50px;
+        width: 300px;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.01);
 
-}
+        color: aliceblue;
+        font-family: 'Montserrat';
+        font-size: 22px;
+        text-align: center;
+        justify-self: center;
+    }
+
+    button:focus {
+        outline: none;
+        
+    } 
+
+    &__generate {
+        background-color: #00cb79;
+       
+    }
+
+    &__clear {
+        background-color: #45b0e5;
+       
+    }
 
 }
 .input {
