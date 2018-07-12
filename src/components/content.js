@@ -5,9 +5,11 @@ class Content extends Component {
     
         const data = this.props.data
         return(
-            <p>
-            Ladies and Gentelmen, this is <b>{data.color}</b> Barber,
-            </p>
+            <div className="card__content">
+                <p>
+                    Ladies and Gentelmen, this is <b>{data.color}</b> Barber,your sportscaster, 
+                </p>    
+            </div>
         )
     }
 }
