@@ -92,6 +92,13 @@ grid-template-rows: 1fr 50px;
         outline: none;
         
     } 
+    .gray {
+        background-color: #b3b3b3;
+    }
+
+    .green {
+        background-color: #00cb79;
+    }
 
     &__generate {
         background-color: #00cb79;
@@ -109,6 +116,19 @@ grid-template-rows: 1fr 50px;
 
         justify-self: center;
         margin-bottom: 84px;
+
+        &__label {
+            height: 22px;
+            width: 22px;
+            background-color: black;
+            border-radius: 50%;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            color: white;
+            display: inline-block;
+            padding: 4px;
+        }
 
         p {
             line-height: 29px;
@@ -157,7 +177,7 @@ grid-template-rows: 1fr 50px;
 
     &__number{
         grid-column: 1/2;
-        background-color: #00cb79;
+        
         color: white;
         font-size: 20px;
         padding-top: 3px;
