@@ -7,6 +7,10 @@ class Content extends Component {
         this.count = 1;
     }
 
+    ComponentWillReceiveProps() {
+        this.count = 1;
+    }
+
     renderLabel(data) {
         return [
             <div className="card__contnent__label">{this.count++}</div>,

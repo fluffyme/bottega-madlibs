@@ -85,7 +85,7 @@ grid-template-rows: 1fr 50px;
         text-align: center;
         justify-self: center;
 
-        transform: translateY(50%);
+        
     }
 
     button:focus {
@@ -102,11 +102,13 @@ grid-template-rows: 1fr 50px;
 
     &__generate {
         background-color: #00cb79;
+        transform: translateY(-300px);
        
     }
 
     &__clear {
         background-color: #45b0e5;
+        transform: translateY(50%);
     }
 
     &__content {
